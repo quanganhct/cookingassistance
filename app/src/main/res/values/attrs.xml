@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="timer_button">
+        <attr name="timer_run" format="boolean"/>
+    </declare-styleable>
+</resources>

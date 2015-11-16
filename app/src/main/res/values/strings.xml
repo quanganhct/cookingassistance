@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Cooking Assistance</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_recipe_content">RecipeContentActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="precooking_title">Các bước chuẩn bị</string>
+    <string name="startcooking_title">Các bước thực hiện</string>
+    <string name="button_available">Start</string>
+    <string name="button_pressed">Stop</string>
+    <string name="step_order">Bước</string>
+    <string name="skip_button_content">Bỏ qua >>></string>
+</resources>

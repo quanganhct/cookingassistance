@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_1">#AAFA5858</color>
+    <color name="text_color_1">#AA0000FF</color>
+    <color name="button_available">#AA95FF7A</color>
+    <color name="button_lost_focus">#AAB8B8B8</color>
+    <color name="button_pressed">#AACC33CC</color>
+    <color name="clock_background">#AA999900</color>
+    <color name="skip_button">#AAFFFF00</color>
+</resources>

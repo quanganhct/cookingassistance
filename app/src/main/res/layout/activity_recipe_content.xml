@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".activities.RecipeContentActivity"
+    android:background="@drawable/old_paper_background">
+
+    <TextView android:text="@string/app_name" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dip"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:background="@drawable/rounded_corner">
+        <LinearLayout
+            android:id="@+id/linear_layout_cooking"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dip">
+            <TextView
+                android:id="@+id/recipe_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name recipe"
+                android:paddingBottom="20dip"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_caption_size"/>
+
+            <ListView
+                android:id="@+id/list_ingredient"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </ListView>
+
+            <TextView
+                android:id="@+id/precooking_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_caption_size"/>
+
+            <ListView
+                android:id="@+id/list_pre_cooking"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dip" ></ListView>
+
+            <TextView
+                android:id="@+id/startcooking_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_caption_size"/>
+
+            <ListView
+                android:id="@+id/list_cooking_step"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dip"></ListView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  "/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
